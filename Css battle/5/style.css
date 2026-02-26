@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 400px;
+  height: 300px;
+  background-color: #0B2429;
+
+
+}
+
+.klor {
+  width: 120px;
+  aspect-ratio: 1/1;
+ 
+}
+.middle {
+  background-color: #998235;
+  border-radius: 50% 0% 50% 50%;
+  position: absolute;
+  top: 90px;
+  left: 140px;
+}
+
+.left {
+  background-color: #F3AC3C;
+  border-radius: 50% 0% 50% 50%;;
+   position: absolute;
+  top: 150px;
+  left: 80px;
+}
+
+.right { 
+  background-color: #F3AC3C;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  left: 200px;
+
+}
+
+
