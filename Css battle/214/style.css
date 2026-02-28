@@ -1,0 +1,75 @@
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+.contaienr {
+    width: 400px;
+    height: 300px;
+    background: #F8F8F8;
+
+
+  }
+
+.row1{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding: 20px 30px;
+  border: 1px solid black;
+  justify-content: space-around;
+  }
+.pujur {
+    width:40px;
+    height:50px;
+    background-color:#787885;
+    display:flex;
+    flex-direction:row;
+    
+
+  }
+
+.row2 {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    display:flex;
+    flex-direction:column;
+    border: 1px solid black;
+    justify-content: space-around;
+
+
+    }
+.erkar {
+      width:330px;
+      height:10px;
+      background-color:#787885;
+      position:absolute;
+      display:flex;
+        flex-direction:column;
+        
+    }
+
+.row3 {
+display: flex;
+flex-direction: row;
+    border: 1px solid black;
+    gap: 5px;
+}
+
+.mijin {
+background-color:#787885;
+height: 10px;
+width: 60px;
+display: flex;
+border: 1px solid black;
+gap: 5px;
+}
+
+.mejtex {
+    background-color:#787885;
+    width: 150px;
+    aspect-ratio: 1/1;border: 1px solid black;
+}
+   

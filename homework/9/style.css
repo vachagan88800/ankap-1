@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 300px;
+  height: 400px;
+  background-color:aliceblue;
+  display: flex;
+  align-items: center;
+justify-content: center;
+  padding: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+  background-color: white;
+  width: 250px;
+  height: 350px;
+  border-radius: 10px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+  
+}
+
+.nkar img {
+  width: 190px;
+  border-radius: 10px;
+}
+
+.noter {
+  display: flex;
+  flex: row;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 5px 10px;
+  align-self:flex-start;
+  
+}
+
+.nature {
+border: 1px solid grey;
+padding: 1px 4px;
+border-radius: 20px;
+font-size: 12px;
+color: grey;
+font-weight: 600;
+}
+
+.lake {
+border: 1px solid grey;
+padding: 1px 4px;
+border-radius: 20px;
+font-size: 12px;
+color: grey;
+font-weight: 600;
+
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  justify-content: space-around;
+}
+.header {
+  font-weight: 900;
+  font-size: 16px;
+  padding:10px;
+}
+
+.Lorem {
+  font-size: 12px;
+  padding: 0px 10px;
+  color: grey;
+}
+
+.read {
+  background-color: rgb(205, 226, 245);
+  width: 100px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-self: center;
+  border-radius: 20px;
+  color: rgb(64, 64, 200);
+  font-weight: bold;
+  font-size: 12px;
+  padding: 5px;
+}
