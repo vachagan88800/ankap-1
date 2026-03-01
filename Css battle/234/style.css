@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+width: 400px;
+height: 300px;
+background-color:#FDFFE9;
+display: flex;
+flex-direction: column;
+padding: 20px;
+gap: 10px;
+}
+
+.row1 {
+    width: 100%;
+    height: 30px;
+    background-color: #ADB274;
+    display: flex;
+    gap:10px;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.row2 {
+    display: flex;
+    gap:10px;
+    flex-direction: row;
+}
+
+.row3 {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    gap:10px;
+    background-color: #ADB274;
+    justify-content: center;
+    padding: 5px;
+}
+
+.rect {
+    width: 20px;
+    aspect-ratio: 1/1;
+    background-color: #555A2A;
+    
+}
+
+.dzax {
+    width: 80px;
+    height: 180px;
+    background-color: #ADB274;
+
+}
+
+.aj {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+
+}
+
+.poqr {
+    width: 270px;
+    height: 40px;
+    background-color: #ADB274;
+}
+
+.mijin {
+    width: 270px;
+    height: 60px;
+    background-color: #ADB274;
+}
+
+.mec {
+    width: 270px;
+    height: 60px;
+    background-color: #ADB274;
+}
+
+
