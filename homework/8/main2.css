@@ -20,13 +20,13 @@ body {
     width: 800px;
     height: 50px;
     display: flex;
-
+    justify-content: space-between;
 
 }
 .wrap {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 13px;
 
 }
@@ -66,5 +66,3 @@ body {
   font-weight: 500;
   transition: 0.3s;
 }
-
-

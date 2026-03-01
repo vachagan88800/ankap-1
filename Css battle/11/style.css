@@ -1,0 +1,54 @@
+
+  * {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  .container {
+    width: 400px;
+    height: 300px;
+    background: #191210;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+
+  .mec {
+    width: 140px;
+    aspect-ratio:1/1;
+    border-radius:50%;
+    border: 20px solid #ECA03D;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+  }
+  .poqr {
+    width:50px;
+    aspect-ratio:1/1;
+    border-radius:50%;
+    background:#84271C;
+  }
+
+  .dzax {
+    width:100px;
+    aspect-ratio:1/1;
+    border-radius:50%;
+    border: 20px #ECA03D solid;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    rotate: 45deg;
+    translate: 20px
+  }
+
+  .aj {
+    width:100px;
+    aspect-ratio:1/1;
+    border-radius:50%;
+    border: 20px #ECA03D solid;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    rotate: -135deg;
+    translate: -20px
+  }
+
