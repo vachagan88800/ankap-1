@@ -1,0 +1,70 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+  }
+  .container {
+    width: 400px;
+    height: 300px;
+    background: #67AED4;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:end;
+  }
+
+  .barak {
+    width:10px;
+    height:60px;
+    background:white;
+  }
+  .mijin {
+    width:60px;
+    height:60px;
+    background:white;
+  }
+
+  .hast {
+    width:100px;
+    height:60px;
+    background:white;
+  }
+ 
+  .erkar {
+    width:100%;
+    height:20px;
+    background:white;
+  }
+
+   .tak {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.dzax {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    padding: 0 30px 0 0 ;
+}
+.aj {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    padding: 0 0 0 30px;
+}
+  .dzox {
+    width:20px;
+    height:80px;
+    background:white;
+  }
+     .sev {
+        display: flex;
+        flex-grow:1;
+        background-color: black;
+    }
+     
+     
+
+  

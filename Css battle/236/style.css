@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 400px;
+    height: 300px;
+    background-color: #F8B140;
+    display: flex;
+  
+}
+
+.rect {
+    display: flex;
+    gap: 20px;
+    padding: 40px 60px;
+}
+
+.pill {
+width: 80px;
+  height: 210px;
+  border-radius: 50%/18%;
+  background:radial-gradient(circle, #CF6939 0px,#F8B140 15px,#2F434E 45px, #CF6939 85px);
+}
