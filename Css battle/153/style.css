@@ -22,7 +22,6 @@ align-items: center;
 
   .taxtak {
     width: 200px;
-
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     

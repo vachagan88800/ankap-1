@@ -1,0 +1,25 @@
+body{
+  margin:0;
+  background:#e6d78f;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+.art{
+  width:400px;
+  height:400px;
+
+  background:
+  radial-gradient(circle at 62% 50%, black 0 35px, transparent 3px),
+  radial-gradient(circle at 50% 50%, #e6d78f 0 55px, transparent 56px),
+
+  conic-gradient(
+    from 90deg at 40% 40%,
+    #a4322e 0 90deg,
+    #3f8726 90deg 360deg
+  ),
+
+  radial-gradient(circle at 50% 50%, #f28a22 0 100px, transparent 90px);
+}
