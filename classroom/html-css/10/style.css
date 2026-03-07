@@ -16,9 +16,6 @@ body {
     height: 300px;
     background: rgb(52, 51, 51);
     display: grid;
-
-
-   
 }
 
     
@@ -29,7 +26,6 @@ body {
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr;
     gap: 10px;
-    grid-column: .g1 .g1 ;
 }
 .g1 {
     background-color: purple
