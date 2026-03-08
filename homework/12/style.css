@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: black;
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.for {
+    width: 70px;
+    height: 170px;
+    border: 1px white solid;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 5px;
+}
+.klor {
+    width: 50px;
+    aspect-ratio: 1/1;
+
+    border-radius: 50%;
+}
+
+.karmir {
+    background-color: red;
+    box-shadow:0 0 100px currentColor;
+    animation: redLight 10s infinite;
+}
+
+.dexin {
+    
+    animation: yellowLight 10s infinite;
+}
+.kanach {
+    
+    animation: greenLight 10s infinite;
+
+}
+
+/* 🔴 Կարմիր */
+@keyframes redLight{
+ 0%,20%{background:red;}
+  21%,30%{background:red;}   /* red + yellow փուլ */
+  31%,100%{background:#333;}
+
+}
+ 
+/* 🟡 Դեղին */
+@keyframes yellowLight{
+  0%,20%{background:#333;}
+  21%,30%{background:yellow;} /* red + yellow */
+  31%,70%{background:#333;}
+  71%,85%{background:yellow;} /* միայն դեղին */
+  86%,100%{background:#333;}
+}
+
+@keyframes greenLight{
+  0%,30%{background:#333;}
+  31%,60%{background:lime;}  /* կանաչ */
+  
+  /* կանաչի թարթել */
+  61%
+  {background:#333;}
+  65%{background:lime;}
+  69%{background:#333;}
+  73%{background:lime;}
+  
+  74%,100%{background:#333;}
+}
