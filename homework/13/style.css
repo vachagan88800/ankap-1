@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    height: 90vh;
+    aspect-ratio: 1/1;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.ket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.kent:nth-child(even){
+  background: rgb(169, 163, 163);
+}
+
+.zuyg:nth-child(odd){
+  background: rgb(169, 163, 163);
+}

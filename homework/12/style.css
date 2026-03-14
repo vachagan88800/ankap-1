@@ -26,24 +26,27 @@
 .klor {
     width: 50px;
     aspect-ratio: 1/1;
-
+background:#333;
     border-radius: 50%;
 }
 
 .karmir {
-    background-color: red;
-    box-shadow:0 0 100px currentColor;
-    animation: redLight 10s infinite;
+    
+    box-shadow: 0 0 100px red;
+    animation:  redLight 10s infinite;
+    
 }
 
 .dexin {
     
     animation: yellowLight 10s infinite;
+    animation-delay: 7s;
 }
 .kanach {
     
     animation: greenLight 10s infinite;
 
+s
 }
 
 /* 🔴 Կարմիր */
